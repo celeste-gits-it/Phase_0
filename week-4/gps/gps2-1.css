@@ -1,0 +1,22 @@
+header {
+    background-color: purple
+}
+
+.column-1 { 
+    background-color: #ff0000;
+    width: 40%;
+    display: inline-block;
+}
+
+
+.column-2 {
+    background-color: yellow;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+      
+}
+
+footer {
+    background-color: blue
+}
