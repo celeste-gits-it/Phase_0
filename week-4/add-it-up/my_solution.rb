@@ -4,7 +4,7 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [with: David O'keefe ].
 
 # 0. total Pseudocode
 # make sure all pseudocode is commented out!
@@ -15,13 +15,13 @@
 
 
 # 1. total initial solution
-# def total (num_array)
-# 	sum = 0
-# 	num_array.each do |num|
-# 		sum += num
-# 	end
-# 	sum
-# end
+def total (num_array)
+	sum = 0
+	num_array.each do |num|
+		sum += num
+	end
+	sum
+end
 
 
 
@@ -44,16 +44,16 @@ end
 #3.)
 
 # 5. sentence_maker initial solution
-# def sentence_maker(word_array)
-# 	string = ""
-# 	word_array.each do |word|
-# 		string += word.to_s 
-# 		string += " "
-# 	end
-# 	string.capitalize!
-# 	string.rstrip!
-# 	string += "."
-# end
+def sentence_maker(word_array)
+	string = ""
+	word_array.each do |word|
+		string += word.to_s 
+		string += " "
+	end
+	string.capitalize!
+	string.rstrip!
+	string += "."
+end
 
 
 
