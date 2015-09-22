@@ -23,7 +23,7 @@
 
 
 # 1. Initial Solution
-def pad!(array, min_size, value = nil) #destructive (bang !) #( assignments live here)
+def pad!(array, min_size, value = nil) 		#destructive (bang !) #( assignments live here)
 	if array.length >= min_size 			#perform method on assignment array
 		return array 						#return returns a value for the program to see but the user doesnt see it 
 	else 									#if we want the user to see we would use puts or "p"
@@ -35,7 +35,8 @@ def pad!(array, min_size, value = nil) #destructive (bang !) #( assignments live
 	end
 end
 
-def pad(array, min_size, value = nil) #non-destructive
+
+def pad(array, min_size, value = nil) 		#non-destructive
 	new_array = array.dup
 	if array.length >= min_size 			#perform method on assignment array
 		return new_array 					#return returns a value for the program to see but the user doesnt see it 
