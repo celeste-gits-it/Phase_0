@@ -63,5 +63,17 @@ create new function then pass array into it
 
 
 
+def ly_names(array)
+ array.map! do |word|
+   if word.kind_of?(Array)
+     ly_names(word)
+   else
+     word = word + 'ly'
+   end
+ end
+end
+
+p ly_names(startup_names)
+
 
 
