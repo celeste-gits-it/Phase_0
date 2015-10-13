@@ -14,23 +14,31 @@ end
 
 
 
-chicago_list = (acct_group(["Aji Slater", "Celeste Carter", "Colin Razevich", "David O'Keefe", 
-	"Farman Pirzada", "George Warnbold", "Hana Worku", "Irina Renteria", "Jamie Runyan", "Joshua Monzon", 
-	"Julian Lesse", "Kris Bies", "Lauren Jin", "Lauren Markzon", "Marcus Davis", "Marvy Tagala", "Pamela Antonow", 
-	"Regina Compton","Richard Leo"]))
+chicago_list = (acct_group(["Alexander Blair", "Becca Nelson", "Bryan Munroe", "Danny Clark", 
+	"Eric Corral", "Gabrielle Gustilo", "Jacob Boer", "John Polhil", "Joshua Abrams", "Kevin Corso", 
+	"Kevin Mark", "Kris Bies", "Lars Johnson", "Max Iniguez", "Michael Jasinski", "Noah Heinrich", "Parminder Singh", 
+	"Ronny Ewanek","Syema Ailia"]))
 
 print chicago_list
- # First Run
-# Accountability Group 1:  Colin Razevich, Marcus Davis, Kris Bies, Hana Worku, Irina Renteria
-# Accountability Group 2:  Richard Leo, Celeste Carter, Regina Compton, Lauren Jin, David O'Keefe
-# Accountability Group 3:  Farman Pirzada, Julian Lesse, Marvy Tagala, Joshua Monzon, Jamie Runyan
-# Accountability Group 4:  Lauren Markzon, George Warnbold, Aji Slater, Pamela Antonow
+# First Run 
+# Accountability Group 1:  John Polhil, Lars Johnson, Joshua Abrams, Bryan Munroe, Becca Nelson
+# Accountability Group 2:  Max Iniguez, Jacob Boer, Syema Ailia, Kris Bies, Alexander Blair
+# Accountability Group 3:  Noah Heinrich, Danny Clark, Parminder Singh, Ronny Ewanek, Gabrielle Gustilo
+# Accountability Group 4:  Kevin Mark, Michael Jasinski, Kevin Corso, Eric Corral
 
- # Second Run (to verify randomizing)
-# Accountability Group 1:  Marcus Davis, Joshua Monzon, Hana Worku, Lauren Jin, Regina Compton
-# Accountability Group 2:  Kris Bies, Pamela Antonow, George Warnbold, Aji Slater, Colin Razevich
-# Accountability Group 3:  Irina Renteria, Richard Leo, Farman Pirzada, Marvy Tagala, David O'Keefe
-# Accountability Group 4:  Jamie Runyan, Julian Lesse, Lauren Markzon, Celeste Carter
+# # Second Run
+# Accountability Group 1:  Lars Johnson, Joshua Abrams, Kris Bies, Max Iniguez, Bryan Munroe
+# Accountability Group 2:  Parminder Singh, Syema Ailia, Michael Jasinski, Jacob Boer, Kevin Mark
+# Accountability Group 3:  Gabrielle Gustilo, Danny Clark, Ronny Ewanek, Noah Heinrich, Kevin Corso
+# Accountability Group 4:  Eric Corral, Becca Nelson, John Polhil, Alexander Blair
+
+# # Third Run
+# Accountability Group 1:  Syema Ailia, Parminder Singh, Ronny Ewanek, Joshua Abrams, Becca Nelson
+# Accountability Group 2:  Alexander Blair, Lars Johnson, Max Iniguez, Noah Heinrich, Bryan Munroe
+# Accountability Group 3:  Jacob Boer, John Polhil, Gabrielle Gustilo, Kevin Mark, Kris Bies
+# Accountability Group 4:  Danny Clark, Michael Jasinski, Eric Corral, Kevin Corso
+
+
 
 # # Step 3
 # If you want to take your solution a step further, consider these questions and make changes to your solution based on your decisions:
