@@ -30,7 +30,9 @@ def serving_size_calc(item_to_make, order_quantity)#two arguments , item to make
 
 #   case serving_size_mod
 #   when 0
-  if serving_size_mod == 0#if serving size is equal to 0 then return the calculations complete
+  if serving_size_mod == 0 #give me this at position 0
+
+  #if serving size is equal to 0 then return the calculations complete
     return "Calculations complete: Make #{order_quantity/serving_size} of #{item_to_make}"
   else
     return "Calculations complete: Make #{order_quantity/serving_size} of #{item_to_make}, you have #{serving_size_mod} leftover ingredients. Suggested baking items: #TODO: MAKE THIS FEATURE"
@@ -91,4 +93,5 @@ p serving_size_calc("cookie", 10)
 p serving_size_calc("THIS IS AN ERROR", 5)
 
 
+c
 
