@@ -50,22 +50,35 @@ end
 p number_array
 
 # Bonus:
+# 
 
+#Gabriella
 startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
 
 startup_names.map! do |element|
-  if element.kind_of?(Array) #[0]
-    if element.kind_of?(Array) #[1]
-      if element.kind_of?(Array)#[1][2][0] or [2][1]
-        element.map! {|element| element << "ly" }
-      else
-        element << "ly"
-      end
+ if element.kind_of?(Array)
+         element.map! do |element|
+             if element.kind_of?(Array)
+                 element.map! {|element| element << "ly"}
+             else element << "ly"
+             end
+         end
+ else
+     element << "ly"
+ end
+end
+
+p startup_names
+
+#Celeste
+
+def startup_names(names)
+  names.map! do |element|
+    if item.respond_to?(:map!)
+      startup_names(element)
     else
-      element << "ly"
+      item += "ly"
     end
-  else
-      element << "ly"
   end
 end
 

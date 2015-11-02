@@ -52,4 +52,8 @@ p game.guess(25)
 p game.guess(100)
 p game.guess(99)
 
+# 5. Reflection
+
+# At this point I am still trying to grasp instance and local variables and how to apply them. 
+# I gave this one my best shot, got stuck so I am looking forward ot the feedback. 
 
