@@ -1,0 +1,19 @@
+<!DOCTYPE <html>
+<head>
+	<title>Blog - Celeste</title>
+	<link type="text/css" rel="stylesheet" href="../css/blog/blog.css"/>
+</head>
+
+<body>
+
+toppings = %w{ cheese tomato pepperoni sausage onion peppers olives } 
+
+
+=> [ "cheese", "tomato", "pepperoni", "sausage", "onion", "peppers", "olives" ]
+
+toppings.group_by{|toppings| toppings.length}
+=> {6=>["cheese", "tomato", "olives"], 9=>["pepperoni"], 7=>["sausage", "peppers"], 5=>["onion"]}
+
+In this code each topping is passed through the block which it recieves as the parameter toppings. The blocks result is the length of each topping and the results are grouped based on this number. 
+
+</body>

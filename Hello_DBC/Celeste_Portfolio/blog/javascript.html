@@ -1,0 +1,30 @@
+!DOCTYPE <html>
+<head>
+	<title>Ruby VS Javascript</title>
+	<link type="text/css" rel="stylesheet" href="../css/blog/blog.css"/>
+</head>
+
+<body> 
+In theory Ruby and Javascript are a lot a like in that they both are Object Orientated Programming languages. This allows code to be written where everything is an object, and all objects are representative of some type of data. Both languages have variables, hashes, methods, for loops, while loops, and classes. However how we access and assign these are unique to each programming language. Here are a few of the basic differences every programmer should know. 
+
+<h3> Setting a Variable</h3>
+If you want to set variable in Ruby you simply do the following:	object = "item"
+However, to do the same thing in javascript you need to use the follow syntax to set the variable: 	var object = "item"
+
+<h3> Hashes vs Objects</h3>
+Here is what a hash looks like in Ruby: 
+name_of_hash = {key1: value1 , key2: value2}
+In Javascript objects take the place of hashes and instead of being a key the object is a variable (defined using var):
+var name_of_hash {key1: value1 , key2: value2}
+
+Although not too much different it is important to understand that the variable must be assigned in order for the value/pair to be called upon. In Ruby you call the hash to find a keys value like so:
+name_of_hash[:key1] --> returns value1
+to call the same thing in Javascript you have to remember you are calling an object in order to get the value of the key 
+name_of_hash.key1 --> returns value1 
+
+In addition to this Javascript almost always requires that semicolons be used anytime there is a change that will affect the current state of the code (which seems to be almost always) so be sure to use those semicolons. 
+
+There are many more differences between Javascript & Ruby however conceptually both languages aren't too far off from one another. 
+</body>
+
+</html>
